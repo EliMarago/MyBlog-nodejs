@@ -1,0 +1,53 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Link</title>
+    <style>
+      body{
+          background-color: #e5e5e5;
+      }
+        h1 {
+            color: coral;
+            font-size: 4rem;
+            display: flex; /* Per allineare il testo con l'icona */
+            align-items: center; /* Centrare verticalmente l'icona */
+          justify-content: center;
+        }
+
+        .icon {
+            margin-left: 20px; /* Spazio tra testo e icona */
+            font-size: 4rem; /* Dimensione dell'icona */
+            color: coral; /* Colore uguale al titolo */
+          display:flex;
+          align-items: center;
+            justify-content: center;
+        }
+
+        a {
+            text-decoration: none; /* Rimuove la sottolineatura del link */
+        }
+      p{
+                display:flex;
+          align-items: center;
+            justify-content: center;
+        font-size: 1.2rem;
+        
+      }
+    </style>
+</head>
+<body>
+    <!-- Titolo con icona accanto -->
+    <h1>
+        Link del progetto qui
+        <a href="https://myblog-nodejs-production.up.railway.app/" target="_blank">
+            <ion-icon class="icon" name="link-outline"></ion-icon>
+        </a>
+    </h1>
+      <p>Progetto realizzato con node.js usando express</p>
+</body>
+</html>
